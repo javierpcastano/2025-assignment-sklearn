@@ -248,4 +248,3 @@ class MonthlySplit(BaseCrossValidator):
             idx_test = np.where(months == test_month)[0]
 
             yield idx_train, idx_test
-        
